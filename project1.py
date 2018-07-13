@@ -15,6 +15,7 @@ def insert():
     except:
         db.rollback() #if therfe is any error then rollback
         db.close()
+        print("try Again not inserted")
         
 
 def delete():
